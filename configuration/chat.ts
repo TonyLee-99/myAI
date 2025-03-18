@@ -1,7 +1,7 @@
 import { OWNER_NAME, AI_NAME } from "./identity";
 
-export const INITIAL_MESSAGE: string = `Hello, I'm ${AI_NAME}, ${OWNER_NAME}'s AI assistant.`;
-export const DEFAULT_RESPONSE_MESSAGE: string = `Sorry, I'm having trouble generating a response. Please try again later.`;
-export const WORD_CUTOFF: number = 8000; // Number of words until bot says it needs a break
-export const WORD_BREAK_MESSAGE: string = `[WORD BREAK MESSAGE]`;
-export const HISTORY_CONTEXT_LENGTH: number = 7; // Number of messages to use for context when generating a response
+export const INITIAL_MESSAGE: string = `Hi there! I'm ${AI_NAME}, your startup idea assistant created by ${OWNER_NAME}. Ready to turn your ideas into business success!`;
+export const DEFAULT_RESPONSE_MESSAGE: string = `Hmm, I’m having trouble generating a response right now. Let’s try again in a moment!`;
+export const WORD_CUTOFF: number = 8000;
+export const WORD_BREAK_MESSAGE: string = `You've reached the limit of this session. Let's take a short break and continue with fresh ideas!`;
+export const HISTORY_CONTEXT_LENGTH: number = 7;
